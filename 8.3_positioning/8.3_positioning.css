@@ -1,0 +1,51 @@
+#div1 {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  margin: 50px;
+  position: absolute;
+  border: 2px solid black;
+}
+
+#div2 {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  position: absolute;
+  border: 2px solid black;
+  top: 60px;
+  left:60px;
+  overflow: auto;
+}
+
+#div3 {
+  width: 250px;
+  height: 90px;
+  background-color: white;
+  margin: 50px;
+  position: absolute;
+  border: 2px solid black;
+  top: 150px;
+}
+
+#div4 {
+  width: 60px;
+  height: 280px;
+  background-color: white;
+  margin: 50px;
+  position: absolute;
+  border: 2px solid black;
+  left: 180px;
+}
+
+
+#inner {
+  width: 50px;
+  height: 50px;
+  background: lightgreen;
+  position: relative;
+  top: 10px;
+}
+
+/* We want the small box to be positioned 10px underneath it. */
