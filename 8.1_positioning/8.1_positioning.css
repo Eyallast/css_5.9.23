@@ -1,0 +1,34 @@
+
+#outer {
+  width: 100px;
+  height: 100px;
+  background: darkcyan;
+  margin: 50px;
+  position: relative;
+  }
+
+#inner {
+width: 50px;
+height: 50px;
+background: lightgreen;
+position: absolute;
+top: 10px;
+}
+  
+  /* We have set the inner div with position absolute and gave it a
+  top of 10px, but it is not working.
+  Why?
+  when setting the position to abs + adding top 10px, the little box will stay static to his 
+  place and won't move, we can either play with the top to fix it (top 90px) or change the position.
+#inner {
+  width: 50px;
+  height: 50px;
+  background: lightgreen;
+  position: absolute;
+  top: 90px;
+  }
+  1. explain in your own words what is the problem.
+  2. fix the code using the positions we’ve learned. 
+  I had to add a position: relative; to the outter
+   
+  */
