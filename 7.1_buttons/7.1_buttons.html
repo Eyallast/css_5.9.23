@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #333;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: coral;
+      font-size: 20px;
+    }
+
+    a:visited {
+      color: red;
+    }
+
+    a:active {
+      color: yellowgreen;
+    }
+
+    .btn-flatbuttons {
+      background: blue;
+      color: white;
+      border: none;
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 0px;
+      cursor: pointer;
+    }
+
+    .btn-roundbuttons {
+      background: green;
+      color: white;
+      border: none;
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn-flatghost {
+      background: none;
+      color: white;
+      border: 2px;
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 0px;
+      cursor: pointer;
+      border: 2px solid white;
+    }
+
+    .btn-roundghost {
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      
+    }
+
+    .btn:hover {
+      color: bisque;
+      background: #445333;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="flatbuttons">
+    <br>
+    <a class="btn-flatbuttons" href="#">Click Here</a>
+    <br>
+    <br>
+  </div>
+  <div id="roundbuttons">
+    <br>
+    <a class="btn-roundbuttons" href="#">Click Here</a>
+    <br>
+    <br>
+  </div>
+  <div id="flatghost">
+    <br>
+    <a class="btn-flatghost" href="#">Click Here</a>
+    <br>
+    <br>
+  </div>
+  <div id="roundghost">
+    <br>
+    <a class="btn-roundghost" href="#">Click Here</a>
+    <br>
+    <br>
+  </div>
+</body>
+
+</html>
