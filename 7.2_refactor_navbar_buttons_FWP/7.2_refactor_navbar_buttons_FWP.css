@@ -1,0 +1,101 @@
+* {
+  color: white;
+  background-color: black;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.image-container {
+  color: green;
+  background-color: black;
+  text-align: center;
+
+}
+
+.main-header {
+  /* color: red;
+  background-color: ;
+  text-align: center; */
+  height: fit-content;
+  padding: 20px;
+}
+
+.main-nav {
+  /* position: sticky; */
+  /* color: red; */
+  background-color: #4c6ca0;
+  text-align: center;
+  list-style: none;
+  border: 1px #ddd solid;
+  width: 300px;
+  padding: 0px;
+  /* left: 40%; */
+  margin: 15px auto;
+  border-radius: 5px;
+  height: 80px;
+  /* overflow: auto; */
+}
+
+.main-nav li {
+  float: left;
+  font-size: 18px;
+  line-height: 2.4em;
+  border-bottom: dotted 1px #ddd;
+  width: 33.33%;
+  height: 100%;
+}
+
+.main-nav li:last-child {
+  color: #333;
+  text-decoration: none;
+}
+
+.main-nav li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 15px;
+}
+
+.main-nav li a:hover {
+  background-color: #446190;
+}
+
+.footer {
+  color: red;
+  text-align: center;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  height: 600px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.btn{
+align-items: center;
+background: transparent;
+color: white;
+border: 2px solid white;
+font-size: 16px;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+.Explanation p {
+  border:5px red dotted;
+}
+.about p {
+  color: yellow;
+  background-color: ;
+  text-align: center;
+}
