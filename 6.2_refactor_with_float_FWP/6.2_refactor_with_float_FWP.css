@@ -1,0 +1,53 @@
+* {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.about {
+  color: blue;
+  background-color: ;
+  text-align: center;
+}
+
+.image-container {
+  color: green;
+  background-color: black;
+  text-align: center;
+
+}
+
+.main-header {
+  color: red;
+  background-color: ;
+  text-align: center;
+}
+
+.main-nav {
+  color: red;
+  background-color: ;
+  text-align: center;
+}
+
+.footer {
+  color: red;
+  text-align: center;
+}
+
+.a {}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  height: 600px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 15px;
+
+}
