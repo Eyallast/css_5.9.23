@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float_Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: auto;
+      height: 600px;
+      border: 1px solid black;
+      position: relative;
+    }
+
+    .box {
+      background-color: white;
+      border: 1px solid black;
+      padding: 20px;
+      margin-bottom: 15px;
+
+    }
+
+    #box-1 {
+      background-color: orange;
+      max-width: 960px;
+      height: 120;
+      border: 1px solid black;
+      padding: 20px;
+      position: relative;
+      top: 10px;
+      left:220px; auto;
+      text-align: center;
+    }
+
+    #box-2 {
+      float: right;
+      background-color: purple;
+      width: 700px;
+      height: 420px;
+      border: 1px solid black;
+      padding: 20px;
+      right: 220px;
+      text-align: right;
+      position: absolute;
+
+    }
+
+    #box-3 {
+      float: left;
+      background-color: green;
+      width: 250px;
+      height: 420px;
+      border: 1px solid black;
+      padding: 20px;
+      text-align: left;
+      position: absolute;
+      left: 220px;
+    }
+
+    #box-4 {
+      text-align: center;
+      background-color: blue;
+      width: 960px;
+      height: 70px;
+      border: 1px solid black;
+      padding: 20px;
+      bottom: 10px;
+      left: 220px; auto;
+      position: absolute;
+    }
+
+    .clr {
+      clear: both;
+    }
+
+    .relative {
+      position: relative;
+      top: 10px;
+      background-color: aqua;
+      left: 30px
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="box-1" class="box">Header</div>
+    <div id="box-2" class="box">Main</div>
+    <div id="box-3" class="box">Side</div>
+    <div class="clr"></div>
+    <div id="box-4" class="box">Footer</div>
+  </div>
+  
+</body>
+
+</html>
